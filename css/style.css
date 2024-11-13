@@ -1,0 +1,164 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a1e3f;
+    color: #e0e0e0;
+}
+
+/* Particle background container */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: #0a1e3f;
+}
+
+/* Header Container Styling */
+.header-container {
+    background-color: #112b5c;
+    color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+/* Title and Description Container */
+.title-description-container {
+    padding: 40px 20px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.header-description {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+/* Navigation Buttons Container */
+.nav-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00709d;
+}
+
+/* Blog Preview Section */
+.blog-preview-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.blog-post {
+    display: flex;
+    align-items: center;
+    background-color: #1c3f74;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.post-image-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+}
+
+.post-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post-content {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.blog-post h2 {
+    color: #00bcd4;
+    font-size: 2rem;
+}
+
+.blog-post .author {
+    color: #aaa;
+    font-size: 1rem;
+}
+
+.blog-post .preview {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.read-more {
+    color: #008CBA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-post {
+        flex-direction: column;
+    }
+
+    .post-image-container {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+}
