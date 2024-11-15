@@ -4,40 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Machine Learning Blog</title>
-    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Contact Us</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="index.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+<body style="font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #0a1e3f; color: #e0e0e0;">
+
+    <!-- Header Section -->
+    <header style="background-color: #112b5c; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);">
+        <div class="header-container" style="text-align: center;">
+            <h1 style="color: #00d2ff; font-size: 3rem; margin: 0;">Contact Us</h1>
+            <nav style="margin-top: 15px;">
+                <ul style="list-style: none; display: flex; justify-content: center; gap: 20px; padding: 0;">
+                    <li><a href="index.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">Home</a></li>
+                    <li><a href="about.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">About</a></li>
+                    <li><a href="index.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">Blog</a></li>
+                    <li><a href="contact.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main class="container">
+
+    <!-- Main Content Section -->
+    <main style="max-width: 800px; margin: 40px auto; padding: 40px; background-color: #1c3f74; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); border-radius: 8px;">
         <section class="contact-form">
-            <h2>Get in Touch</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
+            <h2 style="color: #00bcd4; font-size: 2.5rem; text-align: center; margin-bottom: 20px;">Get in Touch</h2>
+            <form action="#" method="post" style="display: flex; flex-direction: column; gap: 20px;">
+                <label for="name" style="font-size: 1.1rem; color: #e0e0e0;">Name:</label>
+                <input type="text" id="name" name="name" required style="padding: 10px; border-radius: 5px; border: 1px solid #00bcd4; background-color: #0a1e3f; color: #e0e0e0;">
+
+                <label for="email" style="font-size: 1.1rem; color: #e0e0e0;">Email:</label>
+                <input type="email" id="email" name="email" required style="padding: 10px; border-radius: 5px; border: 1px solid #00bcd4; background-color: #0a1e3f; color: #e0e0e0;">
+
+                <label for="message" style="font-size: 1.1rem; color: #e0e0e0;">Message:</label>
+                <textarea id="message" name="message" required style="padding: 10px; border-radius: 5px; border: 1px solid #00bcd4; background-color: #0a1e3f; color: #e0e0e0; height: 150px;"></textarea>
+
+                <button type="submit" style="padding: 10px 20px; background-color: #008CBA; color: #ffffff; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer; transition: background-color 0.3s ease;">Send</button>
             </form>
         </section>
     </main>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Machine Learning Blog. All rights reserved.</p>
-        </div>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #112b5c; padding: 20px; text-align: center; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); margin-top: 40px;">
+        <p style="color: #e0e0e0; font-size: 1rem;">&copy; 2024 Machine Learning Blog. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
