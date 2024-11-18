@@ -4,44 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Machine Learning Blog</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a1e3f;
+            color: #e0e0e0;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #112b5c;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .header-container {
+            text-align: center;
+        }
+
+        header h1 {
+            color: #00d2ff;
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        nav ul li a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        /* Main Content Section */
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #1c3f74;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+
+        h2, h3 {
+            color: #00bcd4;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #112b5c;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Link Section */
+        .link-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .link-container a {
+            color: #00d2ff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        .link-container a:hover {
+            color: #00ffb7;
+        }
+    </style>
 </head>
-<body style="font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #0a1e3f; color: #e0e0e0;">
+<body>
 
     <!-- Header Section -->
-    <header style="background-color: #112b5c; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);">
-        <div class="header-container" style="text-align: center;">
-            <h1 style="color: #00d2ff; font-size: 3rem; margin: 0;">About Us</h1>
-            <nav style="margin-top: 15px;">
-                <ul style="list-style: none; display: flex; justify-content: center; gap: 20px; padding: 0;">
-                    <li><a href="index.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">Home</a></li>
-                    <li><a href="about.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">About</a></li>
-                    <li><a href="index.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">Blog</a></li>
-                    <li><a href="contact.html" style="color: #e0e0e0; text-decoration: none; font-weight: bold;">Contact</a></li>
+    <header>
+        <div class="header-container">
+            <h1>About Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Main Content Section -->
-    <main style="max-width: 800px; margin: 40px auto; padding: 40px; background-color: #1c3f74; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); border-radius: 8px;">
+    <main>
         <section class="about-content">
-            <h2 style="color: #00bcd4; font-size: 2.5rem; text-align: center; margin-bottom: 20px;">Our Mission</h2>
-            <p style="font-size: 1.2rem; line-height: 1.6; color: #e0e0e0;">
+            <h2>Our Mission</h2>
+            <p>
                 This blog is dedicated to making machine learning accessible to all. Whether you're a beginner or an expert, our articles aim to deepen your understanding and keep you updated with the latest trends.
             </p>
 
-            <h3 style="color: #00bcd4; font-size: 1.8rem; margin-top: 30px;">What You’ll Find Here:</h3>
-            <ul style="padding-left: 20px; color: #e0e0e0; font-size: 1.1rem; line-height: 1.8;">
-                <li style="margin-bottom: 10px;">Comprehensive explanations of machine learning concepts</li>
-                <li style="margin-bottom: 10px;">Hands-on tutorials and practical advice</li>
-                <li style="margin-bottom: 10px;">Insights into the future of artificial intelligence</li>
+            <h3>What You’ll Find Here:</h3>
+            <ul>
+                <li>Comprehensive explanations of machine learning concepts</li>
+                <li>Hands-on tutorials and practical advice</li>
+                <li>Insights into the future of artificial intelligence</li>
             </ul>
+        </section>
+
+        <!-- New Section for Trends and Data -->
+        <section class="link-container">
+            <h3>Explore Trends and Data</h3>
+            <p>Delve into the latest trends and areas of artificial intelligence and machine learning with this comprehensive data analysis.</p>
+            <a href="https://onedrive.live.com/edit?id=AE37138AD4ADD780!116&resid=AE37138AD4ADD780!116&ithint=file%2cxlsx&authkey=!ACtQMMAknQzP0jg&wdo=2&cid=ae37138ad4add780" target="_blank">
+                View the Data &rarr;
+            </a>
         </section>
     </main>
 
     <!-- Footer Section -->
-    <footer style="background-color: #112b5c; padding: 20px; text-align: center; box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); margin-top: 40px;">
-        <p style="color: #e0e0e0; font-size: 1rem;">&copy; 2024 Machine Learning Blog. All rights reserved.</p>
+    <footer>
+        <p>&copy; 2024 Machine Learning Blog. All rights reserved.</p>
     </footer>
 
 </body>
